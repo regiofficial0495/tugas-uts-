@@ -9,7 +9,7 @@ def caesar_decrypt(ciphertext, shift):
             plaintext += char
     return plaintext
 
-ciphertext = "Heru Susanto"
+ciphertext = "Regi Febian Guteres"
 shift_value = 7
 decrypted_text = caesar_decrypt(ciphertext, shift_value)
 print("Ciphertext:", ciphertext)
